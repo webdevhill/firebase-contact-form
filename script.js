@@ -39,7 +39,10 @@ function submitForm(e){
     }, 3000);
 
     // Clear Form
-    document.getElementById('contactform').reset();
+    setTimeout(function(){
+        document.getElementById('contactform').reset();
+    }, 3000)
+    
 
 }
 
